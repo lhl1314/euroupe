@@ -1,0 +1,94 @@
+.news_content {
+    width: 800px;
+    height: auto;
+    margin: 0px auto;
+    border: 1px solid gainsboro;
+    padding: 0px;
+}
+
+td {
+    /*		text-align: center;*/
+    vertical-align: middle !important;
+    border: 1px solid gainsboro;
+    height: 40px;
+    margin: 0px;
+}
+
+table {
+    width: 800px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#editor_bottom {
+    text-align: right;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+}
+
+
+
+/**
+警告模态框
+*/
+.warnModal .modal-content {
+    width: 250px;
+    height: 250px;
+    margin:270px auto;
+}
+/**
+ * 模态框头的颜色
+ */
+.warnModal .modal-header {
+    height: 30%;
+    background: chocolate;
+}
+.warnModal .modal-header h4 {
+    /*	margin-bottom: 20px;*/
+    font-size: 35px;
+    color: brown;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.warnModal .modal-body {
+    height: 75%;
+    width: 100%;
+    padding: 40px;
+    text-indent: 20px;
+    font-size: 20px;
+    color: gray;
+    font-weight: bold;
+    background: blanchedalmond;
+}
+
+td a:link{
+    color: goldenrod;
+}
+td a:visited{
+    color: grey;
+}
+td a:hover{
+    color: red;
+}
+td a:active{
+    color: #b2dba1;
+}
+
+
+.warnClass{
+    color: red;
+}
+.td_right{
+    text-align: right;
+    color: grey;
+}
+.news_content h1{
+    text-align: center;
+    color: grey;
+    margin: 10px;
+}
+.w-e-text-container {
+    height: 321px !important;
+    /*!important是重点，因为原div是行内样式设置的高度300px*/
+}

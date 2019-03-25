@@ -1,0 +1,118 @@
+.news_content {
+    width: 800px;
+    height: auto;
+    margin: 0px auto;
+    border: 1px solid gainsboro;
+    padding: 0px;
+}
+
+td {
+    /*		text-align: center;*/
+    vertical-align: middle !important;
+    border: 1px solid gainsboro;
+    height: 40px;
+    margin: 0px;
+}
+
+table {
+    width: 800px;
+    margin: 0px;
+    padding: 0px;
+}
+
+#editor_bottom {
+    text-align: right;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+}
+
+#editor {
+    width: 100%;
+    height: 356px;
+    overflow: auto;
+}
+.news_content h1{
+    color:grey;
+    margin: 10px;
+    text-align: center;
+}
+.td_right{
+    text-align: center;
+    color: burlywood;
+
+}
+.td_center{
+    text-align: center;
+    color: grey;
+}
+
+.newLogo{
+    text-align: center;
+}
+.newLogo img{
+    width: 80px;
+    height: 80px;
+}
+
+.confirmModal .modal-content {
+    width: 250px;
+    height: 250px;
+    margin: 150px auto;
+}
+
+/**
+ * 模态框头的颜色
+ */
+.confirmModal .modal-header {
+    height: 20%;
+    background: pink;
+    vertical-align: middle !important;
+}
+
+.confirmModal .modal-header h4 {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+/**
+ * 模态框尾的颜色
+ */
+.confirmModal .modal-footer {
+    height: 20%;
+    background: rosybrown;
+    vertical-align: middle;
+    padding-top: 7px;
+}
+
+.confirmModal .modal-header h4 {
+    margin-bottom: 20px;
+}
+
+.confirmModal .modal-body {
+    height: 60%;
+    width: 100%;
+}
+
+.confirmModal .modal-body-left {
+    height: 100px;
+    width: 100px;
+    float: left;
+    background: goldenrod;
+    margin: 3px;
+    border-radius: 50%;
+    font-size: 60px;
+    color: red;
+    text-align: center;
+    /*vertical-align: middle !important;*/
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.confirmModal .modal-body-right {
+    width: 100px;
+    float: left;
+    text-indent: 20px;
+    margin: 5px;
+    font-size: 16px;
+    color: grey;
+}

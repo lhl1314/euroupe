@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozer.sourceforge.net" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://dozer.sourceforge.net
+          http://dozer.sourceforge.net/schema/beanmapping.xsd">
+    <mapping date-format="yyyy-MM-dd">
+        <class-a>com.ouqicha.europebusiness.bean.entity.AccountEntity</class-a>
+        <class-b>com.ouqicha.europebusiness.bean.vo.AccountVO</class-b>
+        <field>
+            <a>personByPersonId</a>
+            <b>person</b>
+        </field>
+        <field>
+            <a>companyByCompanyId</a>
+            <b>company</b>
+        </field>
+        <!--<field-exclude>-->
+            <!--<a>personByPersonId</a>-->
+            <!--<b>person</b>-->
+        <!--</field-exclude>-->
+        <!--<field-exclude>-->
+            <!--<a>companyByCompanyId</a>-->
+            <!--<b>company</b>-->
+        <!--</field-exclude>-->
+
+        <field>
+            <a>accountRolesById</a>
+            <b>accountRoles</b>
+        </field>
+        <field>
+            <a>loginInfoEntity.type</a>
+            <b>deviceType</b>
+        </field>
+        <field>
+            <a>loginInfoEntity.deviceInfo</a>
+            <b>deviceInfo</b>
+        </field>
+        <field>
+            <a>loginInfoEntity.lastLoginTime</a>
+            <b>lastLoginTime</b>
+        </field>
+    </mapping>
+    <mapping date-format="yyyy-MM-dd">
+        <class-a>com.ouqicha.europebusiness.bean.entity.CompanyEntity</class-a>
+        <class-b>com.ouqicha.europebusiness.bean.vo.CompanyVO</class-b>
+        <field>
+            <a>importExportEntity</a>
+            <b>importExportVo</b>
+        </field>
+    </mapping>
+    <mapping date-format="yyyy-MM-dd">
+        <class-a>com.ouqicha.europebusiness.bean.entity.PersonEntity</class-a>
+        <class-b>com.ouqicha.europebusiness.bean.vo.PersonVO</class-b>
+        <field>
+            <a>companyByCompanyId</a>
+            <b>company</b>
+        </field>
+    </mapping>
+    <mapping date-format="yyyy-MM-dd">
+        <class-a>com.ouqicha.europebusiness.bean.entity.AccountRoleEntity</class-a>
+        <class-b>com.ouqicha.europebusiness.bean.vo.AccountRoleVO</class-b>
+        <field>
+            <a>roleByRoleId</a>
+            <b>role</b>
+        </field>
+    </mapping>
+    <mapping date-format="yyyy-MM-dd">
+        <class-a>com.ouqicha.europebusiness.bean.entity.RoleEntity</class-a>
+        <class-b>com.ouqicha.europebusiness.bean.vo.RoleVO</class-b>
+        <field>
+            <a>rolePermissionsById</a>
+            <b>rolePermissions</b>
+        </field>
+    </mapping>
+
+    <mapping date-format="yyyy-MM-dd">
+        <class-a>com.ouqicha.europebusiness.bean.entity.RolePermissionEntity</class-a>
+        <class-b>com.ouqicha.europebusiness.bean.vo.RolePermissionVO</class-b>
+        <field>
+            <a>permissionByPermissionId</a>
+            <b>permission</b>
+        </field>
+    </mapping>
+
+    <mapping date-format="yyyy-MM-dd">
+        <class-a>com.ouqicha.europebusiness.bean.entity.NewsEntity</class-a>
+        <class-b>com.ouqicha.europebusiness.bean.vo.NewsVo</class-b>
+        <field>
+            <a>title</a>
+            <b>newsTile</b>
+        </field>
+        <field>
+            <a>author</a>
+            <b>newsAuthor</b>
+        </field>
+        <field>
+            <a>newLogo</a>
+            <b>newLogo</b>
+        </field>
+        <field>
+            <a>content</a>
+            <b>newsContent</b>
+        </field>
+        <field>
+            <a>category</a>
+            <b>newsCategory</b>
+        </field>
+    </mapping>
+    <mapping date-format="yyyy-MM-dd">
+        <class-a>com.ouqicha.europebusiness.bean.entity.DialogueEntity</class-a>
+        <class-b>com.ouqicha.europebusiness.bean.vo.DialogueVo</class-b>
+    </mapping>
+    <mapping date-format="yyyy-MM-dd">
+        <class-a>com.ouqicha.europebusiness.bean.entity.CountryEntity</class-a>
+        <class-b>com.ouqicha.europebusiness.bean.vo.CountryVo</class-b>
+    </mapping>
+    <mapping date-format="yyyy-MM-dd">
+        <class-a>com.ouqicha.europebusiness.bean.entity.ProvinceEntity</class-a>
+        <class-b>com.ouqicha.europebusiness.bean.vo.ProvinceVo</class-b>
+    </mapping>
+    <mapping date-format="yyyy-MM-dd">
+        <class-a>com.ouqicha.europebusiness.bean.entity.CityEntity</class-a>
+        <class-b>com.ouqicha.europebusiness.bean.vo.CityVo</class-b>
+    </mapping>
+    <mapping date-format="yyyy-MM-dd">
+        <class-a>com.ouqicha.europebusiness.bean.entity.PrefectureEntity</class-a>
+        <class-b>com.ouqicha.europebusiness.bean.vo.PrefectureVo</class-b>
+    </mapping>
+
+    <mapping date-format="yyyy-MM-dd">
+        <class-a>com.ouqicha.europebusiness.bean.entity.CollectEntity</class-a>
+        <class-b>com.ouqicha.europebusiness.bean.vo.CollectVo</class-b>
+        <field>
+            <a>companyEntity</a>
+            <b>companyVO</b>
+        </field>
+    </mapping>
+
+
+    <mapping date-format="yyyy-MM-dd">
+        <class-a>com.ouqicha.europebusiness.bean.entity.AdviceEntity</class-a>
+        <class-b>com.ouqicha.europebusiness.bean.vo.AdviceVo</class-b>
+    </mapping>
+
+    <mapping date-format="yyyy-MM-dd">
+        <class-a>com.ouqicha.europebusiness.bean.entity.ImportExportEntity</class-a>
+        <class-b>com.ouqicha.europebusiness.bean.vo.ImportExportVo</class-b>
+        <field-exclude>
+            <a>importExportCompany</a>
+            <b>importExportCompany</b>
+        </field-exclude>
+    </mapping>
+
+
+    <mapping date-format="yyyy-MM-dd">
+        <class-a>com.ouqicha.europebusiness.bean.entity.HelpCenterEntity</class-a>
+        <class-b>com.ouqicha.europebusiness.bean.vo.HelpCenterVo</class-b>
+        <field-exclude>
+            <a>helpCenterHeaderEntity</a>
+            <b>helpCenterHeaderVo</b>
+        </field-exclude>
+    </mapping>
+    <mapping date-format="yyyy-MM-dd">
+        <class-a>com.ouqicha.europebusiness.bean.entity.HelpCenterHeaderEntity</class-a>
+        <class-b>com.ouqicha.europebusiness.bean.vo.HelpCenterHeaderVo</class-b>
+        <field>
+            <a>helpCenterEntities</a>
+            <b>helpCenterVos</b>
+        </field>
+    </mapping>
+
+
+
+    <mapping date-format="yyyy-MM-dd">
+        <class-a>com.ouqicha.europebusiness.bean.entity.PrivilegeFunctionEntity</class-a>
+        <class-b>com.ouqicha.europebusiness.bean.vo.PrivilegeFunctionVo</class-b>
+    </mapping>
+
+    <mapping date-format="yyyy-MM-dd">
+        <class-a>com.ouqicha.europebusiness.bean.entity.CompanyAuthenticationEntity</class-a>
+        <class-b>com.ouqicha.europebusiness.bean.vo.CompanyAuthenticationVo</class-b>
+    </mapping>
+</mappings>

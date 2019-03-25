@@ -1,0 +1,72 @@
+th,
+td {
+    /*		text-align: center;*/
+    vertical-align: middle !important;
+    border: 1px solid gainsboro;
+}
+.color_font_header{
+    font-size: 16px;
+    font-weight: bold;
+    color: grey;
+}
+.color_font_detail{
+    font-size: 16px;
+    color: grey;
+}
+.warnClass{
+    color: red;
+}
+.td_right{
+    text-align: right;
+}
+.tr_center{
+    text-align: center;
+}
+td a:link{
+    color: goldenrod;
+}
+td a:visited{
+    color: grey;
+}
+td a:hover{
+    color: red;
+}
+td a:active{
+    color: #b2dba1;
+}
+
+
+
+/**
+警告模态框
+*/
+.warnModal .modal-content {
+    width: 250px;
+    height: 250px;
+    margin:150px auto;
+}
+/**
+ * 模态框头的颜色
+ */
+.warnModal .modal-header {
+    height: 30%;
+    background: chocolate;
+}
+.warnModal .modal-header h4 {
+    /*	margin-bottom: 20px;*/
+    font-size: 35px;
+    color: brown;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.warnModal .modal-body {
+    height: 75%;
+    width: 100%;
+    padding: 40px;
+    text-indent: 20px;
+    font-size: 20px;
+    color: gray;
+    font-weight: bold;
+    background: blanchedalmond;
+}

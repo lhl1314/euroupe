@@ -1,0 +1,63 @@
+
+.confirmModal .modal-content {
+    width: 250px;
+    height: 250px;
+    margin: 150px auto;
+}
+
+/**
+ * 模态框头的颜色
+ */
+.confirmModal .modal-header {
+    height: 20%;
+    background: darkcyan;
+    vertical-align: middle !important;
+}
+
+.confirmModal .modal-header h4 {
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+/**
+ * 模态框尾的颜色
+ */
+.confirmModal .modal-footer {
+    height: 20%;
+    background: yellowgreen;
+    vertical-align: middle;
+    padding-top: 7px;
+}
+
+.confirmModal .modal-header h4 {
+    margin-bottom: 20px;
+}
+
+.confirmModal .modal-body {
+    height: 60%;
+    width: 100%;
+    overflow: auto;
+}
+
+.confirmModal .modal-body-left {
+    height: 100px;
+    width: 100px;
+    float: left;
+    background: goldenrod;
+    margin: 3px;
+    border-radius: 50%;
+    font-size: 60px;
+    color: red;
+    text-align: center;
+    /*vertical-align: middle !important;*/
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.confirmModal .modal-body-right {
+    width: 100px;
+    float: left;
+    text-indent: 20px;
+    font-size: 16px;
+    color: grey;
+}
